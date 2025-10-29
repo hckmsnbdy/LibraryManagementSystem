@@ -19,7 +19,7 @@ public class MemberTest {
         assertEquals(0, member.getBorrowedCount());
         assertTrue(member.getBorrowedBooks().isEmpty());
     }
-
+//
     @Test
     void testBorrowBook() {
         assertTrue(member.borrowBook("1234567890"));
